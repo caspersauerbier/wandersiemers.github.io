@@ -1,0 +1,56 @@
+  #mc_embed_signup {
+    clear:center; 
+    font-family: Avenir,Helvetica,Arial,sans-serif; 
+  }
+
+  body {
+    text-align: center;
+    background-color: rgba(247, 247, 247, 1);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+  }
+
+  img.icon {
+    margin-top: 20px;
+    max-height: 50%;
+    max-width: 50%;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  label {
+    margin-right: 6px;
+    font-size: 18px;
+  }
+
+  input {
+    border: 0;
+    padding: 10px;
+
+
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    font-size: 18px;
+
+    -webkit-appearance: none;
+    color: white;
+    border-radius: 6px;
+    font-family: Avenir, Helvetica, Arial;
+  }
+
+  input[type="submit"] {
+    background-color: rgba(152, 232, 86, 1);
+    color: black;
+  }
+
+  input[type="email"] {
+    width: 200px;
+    background-color: rgb(235, 235, 235);
+    color: black;
+    text-align: center;
+  }
+}
