@@ -1,5 +1,5 @@
 #mc_embed_signup {
-  clear:center; 
+  margin: 0 auto; 
   font-family: Avenir, 'Nunito', Helvetica,Arial,sans-serif; 
 }
 
@@ -12,10 +12,81 @@ body {
   font-family: Avenir, 'Nunito', Helvetica, Arial, sans-serif;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #e74d89;
+}
+
+a:active {
+  color: #c02562;
+}
+
+
+
 p#subtitle {
   font-size: 24px;
   font-weight: normal;
   margin: 0 auto 10px 10px;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 48px;
+}
+
+#divider {
+  width: 90%;
+  margin: 70px auto;
+  height: 1px;
+  background-color: black;
+}
+
+.feature {
+  display: block;
+  margin: 0px 25px 25px 25px;
+  background-color: red;
+  max-height: 120px;
+  max-width: 430px;
+  min-height: 120px;
+  min-width: 215px;
+}
+
+label {
+  margin-right: 6px;
+  font-size: 18px;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 18px;
+
+  -webkit-appearance: none;
+  color: white;
+  border-radius: 6px;
+  font-family: Avenir, 'Nunito', Helvetica, Arial;
+}
+
+input[type="submit"] {
+  background-color: rgba(152, 232, 86, 1);
+  color: black;
+}
+
+input[type="email"] {
+  width: 200px;
+  background-color: rgb(235, 235, 235);
+  color: black;
+  text-align: center;
 }
 
 @media screen and (max-width: 669px) {
@@ -70,7 +141,6 @@ p#subtitle {
   }
 
   #header {
-    float: center;
     max-width: 90%;
     margin-top: -10px;
     margin-right: 10%;
@@ -80,7 +150,7 @@ p#subtitle {
   }
 
   #bigappstore {
-    margin-top: 5%;
+    margin-top: 10px;
   }
 
   #hero {
@@ -92,55 +162,8 @@ p#subtitle {
     margin: 0 auto;
     display: block;
   }
-}
 
-h1 {
-  font-weight: lighter;
-  font-size: 48px;
-}
-
-#divider {
-  width: 90%;
-  margin: 70px auto;
-  height: 1px;
-  background-color: black;
-}
-
-.feature {
-  display: inline-block;
-  margin: 0px 25px 30px 25px;
-  background-color: red;
-  height: 120px;
-  width: 430px;
-}
-
-label {
-  margin-right: 6px;
-  font-size: 18px;
-}
-
-input {
-  border: 0;
-  padding: 10px;
-
-  margin-left: 0 auto;
-  margin-right: 0 auto;
-  font-size: 18px;
-
-  -webkit-appearance: none;
-  color: white;
-  border-radius: 6px;
-  font-family: Avenir, 'Nunito', Helvetica, Arial;
-}
-
-input[type="submit"] {
-  background-color: rgba(152, 232, 86, 1);
-  color: black;
-}
-
-input[type="email"] {
-  width: 200px;
-  background-color: rgb(235, 235, 235);
-  color: black;
-  text-align: center;
+  .feature {
+    margin: 25px auto 25px auto; /* top right bottom left */
+  }
 }
