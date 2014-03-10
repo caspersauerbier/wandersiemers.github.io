@@ -13,16 +13,16 @@ body {
 }
 
 a:link {
-  color: black;
+  color: #e74d89;
   text-decoration: none;
 }
 
 a:visited {
-  color: black;
+  color: #e74d89;
 }
 
 a:hover {
-  color: #e74d89;
+  text-decoration: underline;
 }
 
 a:active {
@@ -44,9 +44,18 @@ p#subtitle {
   margin: 0 auto 25px 10px;
 }
 
+p.faq {
+  width: 50%;
+  margin: 0 auto;
+}
+
 h1 {
   font-weight: lighter;
   font-size: 48px;
+}
+
+h2 {
+  font-weight: lighter;
 }
 
 #divider {
@@ -161,6 +170,10 @@ input[type="email"] {
 
   .featureicon {
     float: none;
+  }
+
+  p.faq {
+    width: 90%;
   }
 }
 
