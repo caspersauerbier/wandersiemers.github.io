@@ -13,6 +13,7 @@ body {
 }
 
 a:link {
+  color: black;
   text-decoration: none;
 }
 
@@ -28,12 +29,19 @@ a:active {
   color: #c02562;
 }
 
-
+a.bottom {
+  font-size: 1.5em;
+  font-family: Avenir, 'Nunito', Helvetica,Arial,sans-serif;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+  margin-bottom: 1em;
+  display: inline-block;
+}
 
 p#subtitle {
   font-size: 24px;
   font-weight: normal;
-  margin: 0 auto 10px 10px;
+  margin: 0 auto 25px 10px;
 }
 
 h1 {
@@ -43,23 +51,33 @@ h1 {
 
 #divider {
   width: 90%;
-  margin: 70px auto;
+  margin: 3em auto;
   height: 1px;
   background-color: black;
 }
 
-.feature {
-  display: block;
-  margin: 0px 25px 25px 25px;
-  background-color: red;
-  max-height: 120px;
-  max-width: 430px;
-  min-height: 120px;
-  min-width: 215px;
-}
-
 label {
   margin-right: 6px;
+  font-size: 18px;
+}
+
+.feature {
+  display: inline-block;
+}
+
+.featureicon {
+  float: left;
+  display: inline;
+}
+
+.featureheader {
+  float: left;
+  margin: 10px 10px 0px 10px;
+  font-weight: lighter;
+}
+
+.featuredescription {
+  float: right;
   font-size: 18px;
 }
 
@@ -89,6 +107,8 @@ input[type="email"] {
   text-align: center;
 }
 
+/* --------------------------------------------------------------------- */
+
 @media screen and (max-width: 669px) {
   img.icon {
     margin: 0 auto;
@@ -97,21 +117,26 @@ input[type="email"] {
     display: block;
   }
 
-  h1 {
-    margin: 5px auto;
-    /*background-color: red;*/
-  }
-
   #header {
     margin: 0 auto;
     clear: both;
     max-width: 90%;
+    /*background-color: red;*/
+  }
+
+  h1 {
+    margin: 5px auto;
+    /*background-color: red;*/
     font-size: 2em;
-    background-color: red;
+  }
+
+  #subtitle {
+    font-size: 10px;
+    font-weight: bold;
   }
 
   #bigappstore {
-    margin: 0 auto;
+    margin: 0 auto 15px auto;
     max-width: 80%;
     max-height: 100%;
     min-width: 30%;
@@ -125,7 +150,21 @@ input[type="email"] {
     margin: 0 auto;
     display: block;
   }
+
+  .feature {
+    display: inline-block;
+    margin: 10px 25px 10px 25px;
+    /*background-color: red;*/
+    /*height: 200px;*/
+    width: 240px;
+  }
+
+  .featureicon {
+    float: none;
+  }
 }
+
+/* --------------------------------------------------------------------- */
 
 @media screen and (min-width:670px) {
   img.icon {
@@ -164,6 +203,11 @@ input[type="email"] {
   }
 
   .feature {
-    margin: 25px auto 25px auto; /* top right bottom left */
+  display: inline-block;
+  margin: 0px 25px 25px 25px;
+  /*background-color: red;*/
+  height: 145px;
+  max-width: 430px;
+  width: 430px;
   }
 }
