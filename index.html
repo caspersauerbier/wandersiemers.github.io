@@ -1,76 +1,109 @@
 <!DOCTYPE html>
 <head>
   <title>Time Out for Dribbble</title>
-  <style>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+  <!-- Nunito webfont using Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
 
-  #mc_embed_signup{clear:center; font-family: Avenir,Helvetica,Arial,sans-serif; }
+  <!-- Tapstream website hit tracker -->
+  <script type="text/javascript">
+    var _tsq = _tsq || [];
+    _tsq.push(["setAccountName", "wandersiemers"]);
+    _tsq.push(["fireHit", "website_tracker", []]);
 
-    body {
-      text-align: center;
-      background-color: rgba(247, 247, 247, 1);
-      background-size: cover;
-      background-position: center;
-      color: black;
-      font-family: Avenir, Helvetica, Arial, sans-serif;
-    }
+    (function() {
+        function z(){
+            var s = document.createElement("script");
+            s.type = "text/javascript";
+            s.async = "async";
+            s.src = window.location.protocol + "//cdn.tapstream.com/static/js/tapstream.js";
+            var x = document.getElementsByTagName("script")[0];
+            x.parentNode.insertBefore(s, x);
+        }
+        if (window.attachEvent)
+            window.attachEvent("onload", z);
+        else
+            window.addEventListener("load", z, false);
+    })();
+  </script>
 
-    img.icon {
-      margin-top: 20px;
-      max-height: 50%;
-      max-width: 50%;
-    }
-
-    p {
-      font-size: 22px;
-    }
-
-    label {
-      margin-right: 6px;
-      font-size: 18px;
-    }
-
-    input {
-      border: 0;
-      padding: 10px;
-
-
-      margin-left: 0 auto;
-      margin-right: 0 auto;
-      font-size: 18px;
-
-      -webkit-appearance: none;
-      color: white;
-      background: red;
-      border-radius: 6px;
-      font-family: Avenir, Helvetica, Arial;
-    }
-
-    input[type="submit"] {
-      background: rgba(152, 232, 86, 1);
-      color: black;
-    }
-
-    input[type="email"] {
-      width: 200px;
-      background: rgb(235, 235, 235);
-      color: black;
-    }
-  }
-  </style>
 </head>
-<body>
-  <img class="icon" src="/icon.png">
-  <h1>Time Out for Dribbble</h1>
-  <p>A Dribbble app for the iPhone. Coming soon!</p>
 
-   <!-- Begin MailChimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="http://timeoutfordribbble.us3.list-manage.com/subscribe/post?u=1d6133404eccd26f0ee4d30ab&amp;id=6470b3b3f5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-  <label for="mce-EMAIL">Email me when it's ready</label>
-  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
-    
-  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-</form>
-</div>
+<body>
+  
+  <div id="header">
+    <img class="icon" src="/icon.png" alt="App icon"/>
+    <h1>Time Out for Dribbble</h1>
+    <p id="subtitle">Time Out is a better Dribbble client for the iPhone, designed for iOS 7. Available Now!</p>
+    <a href="http://taps.io/KnBw"><img id="bigappstore" src="/bigappstore.png" alt="App Store icon"/></a>
+  </div>
+
+  <div>
+    <img id="hero" src="/hero.png" alt="App screenshots"/>
+  </div>
+
+  <div id="divider"></div>
+
+  <div id="features">
+
+    <h1 style="font-size: 36px; margin-top: -25px">Features</h1>
+
+    <div class="feature">
+
+      <img class="featureicon" src="/ios7icon.png" alt="iOS 7"/>
+      <h2 class="featureheader">Designed for iOS 7</h2>
+      <p class="featuredescription">Every decision in Time Out has been made with iOS 7 in mind.</p>
+
+    </div>
+
+    <div class="feature">
+      <img class="featureicon" src="/html5icon.png" alt="HTML in comments"/>
+      <h2 class="featureheader">HTML in comments</h2>
+      <p class="featuredescription">HTML in comments is properly detected and parsed, so comments will look good and contain no weird HTML tags.</p>
+
+    </div>
+
+    <div class="feature">
+     
+      <img class="featureicon" src="/gificon.png" alt="GIF support"/>
+      <h2 class="featureheader">Animated GIF support</h2>
+      <p class="featuredescription">Whether you pronounce GIF as 'gif' or 'jif', Time Out displays animated GIFs wonderfully. <i>Oh and by the way, GIF is pronounced 'jif'.</i></p>
+
+    </div>
+
+    <div class="feature">
+
+        <img class="featureicon" src="/64biticon.png" alt="64-bit architecture"/>
+        <h2 class="featureheader">Optimized for iPhone 5s</h2>
+        <p class="featuredescription">Time Out has been optimized for iPhone 5s, so you'll enjoy the world's best design 64 bits at a time. Yes.</i></p>
+
+    </div>
+
+  </div>
+
+  <a href="http://taps.io/KnBw"><img style="width: 224px, height: 65px" id="bigappstore" src="/bigappstore.png" alt="App Store icon"/></a>
+
+  <div id="divider"></div>
+
+  <a class="bottom" href="mailto:support@timeoutfordribbble.com">Support</a>
+  <a class="bottom" href="/faq.html">FAQ</a>
+  <a class="bottom" href="/about.html">About</a>
+
+  <p>&copy 2014 Wander Siemers. Rights reserved.</p>
+  <p>iOS 7 and iPhone are trademarks of Apple Inc., registered in the U.S. and other countries, used with permission.</p>
+
+  <!--
+  Begin MailChimp Signup Form
+  <div id="mc_embed_signup">
+    <form action="http://timeoutfordribbble.us3.list-manage.com/subscribe/post?u=1d6133404eccd26f0ee4d30ab&amp;id=6470b3b3f5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+    <label for="mce-EMAIL">Subscribe to the mailing list</label>
+
+    <div style="margin-bottom: 5px"></div>
+
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>    
+    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+    </form>
+  </div> 
+ -->
 </body>

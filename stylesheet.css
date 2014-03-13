@@ -1,0 +1,226 @@
+#mc_embed_signup {
+  margin: 0 auto; 
+  font-family: Avenir, 'Nunito', Helvetica,Arial,sans-serif; 
+}
+
+body {
+  text-align: center;
+  background-color: rgba(252, 252, 252, 1);
+  background-size: cover;
+  background-position: center;
+  color: black;
+  font-family: Avenir, 'Nunito', Helvetica, Arial, sans-serif;
+}
+
+a:link {
+  color: #e74d89;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #e74d89;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #c02562;
+}
+
+a.bottom {
+  font-size: 1.5em;
+  font-family: Avenir, 'Nunito', Helvetica,Arial,sans-serif;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+
+p#subtitle {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 auto 25px 10px;
+}
+
+p.faq {
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 48px;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+#divider {
+  width: 90%;
+  margin: 3em auto;
+  height: 1px;
+  background-color: black;
+}
+
+label {
+  margin-right: 6px;
+  font-size: 18px;
+}
+
+.feature {
+  display: inline-block;
+}
+
+.featureicon {
+  float: left;
+  display: inline;
+}
+
+.featureheader {
+  float: left;
+  margin: 10px 10px 0px 10px;
+  font-weight: lighter;
+}
+
+.featuredescription {
+  float: right;
+  font-size: 18px;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 18px;
+
+  -webkit-appearance: none;
+  color: white;
+  border-radius: 6px;
+  font-family: Avenir, 'Nunito', Helvetica, Arial;
+}
+
+input[type="submit"] {
+  background-color: rgba(152, 232, 86, 1);
+  color: black;
+}
+
+input[type="email"] {
+  width: 200px;
+  background-color: rgb(235, 235, 235);
+  color: black;
+  text-align: center;
+}
+
+/* --------------------------------------------------------------------- */
+
+@media screen and (max-width: 669px) {
+  img.icon {
+    margin: 0 auto;
+    max-height: 30%;
+    max-width: 30%;
+    display: block;
+  }
+
+  #header {
+    margin: 0 auto;
+    clear: both;
+    max-width: 90%;
+    /*background-color: red;*/
+  }
+
+  h1 {
+    margin: 5px auto;
+    /*background-color: red;*/
+    font-size: 2em;
+  }
+
+  #subtitle {
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  #bigappstore {
+    margin: 0 auto 15px auto;
+    max-width: 80%;
+    max-height: 100%;
+    min-width: 30%;
+  }
+
+  #hero {
+    min-width: 10%;
+    min-height: 10%;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .feature {
+    display: inline-block;
+    margin: 10px 25px 10px 25px;
+    /*background-color: red;*/
+    /*height: 200px;*/
+    width: 240px;
+  }
+
+  .featureicon {
+    float: none;
+  }
+
+  p.faq {
+    width: 90%;
+  }
+}
+
+/* --------------------------------------------------------------------- */
+
+@media screen and (min-width:670px) {
+  img.icon {
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-height: 20%;
+    max-width: 30%;
+  }
+
+  h1 {
+    margin: 25px auto;
+  }
+
+  #header {
+    max-width: 90%;
+    margin-top: -10px;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 2em;
+    /*background-color: red;*/
+  }
+
+  #bigappstore {
+    margin-top: 10px;
+  }
+
+  #hero {
+    /*background-color: red;*/
+    clear: both;
+    padding-top: 60px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .feature {
+  display: inline-block;
+  margin: 0px 25px 25px 25px;
+  /*background-color: red;*/
+  height: 145px;
+  max-width: 430px;
+  width: 430px;
+  }
+}
